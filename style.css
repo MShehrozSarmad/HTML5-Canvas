@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    flex-direction: column;
+}
+
+button{
+    padding: 3dpx 8px;
+}
+
+#pannel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    margin-top: -5px;
+    background-image: linear-gradient(22.5deg, rgb(140, 15, 105) 0%, rgb(140, 15, 105) 1%,rgb(133, 14, 103) 1%, rgb(133, 14, 103) 23%,rgb(125, 12, 102) 23%, rgb(125, 12, 102) 39%,rgb(118, 11, 100) 39%, rgb(118, 11, 100) 45%,rgb(110, 9, 98) 45%, rgb(110, 9, 98) 47%,rgb(103, 8, 96) 47%, rgb(103, 8, 96) 52%,rgb(95, 6, 95) 52%, rgb(95, 6, 95) 70%,rgb(88, 5, 93) 70%, rgb(88, 5, 93) 100%),linear-gradient(67.5deg, rgb(140, 15, 105) 0%, rgb(140, 15, 105) 1%,rgb(133, 14, 103) 1%, rgb(133, 14, 103) 23%,rgb(125, 12, 102) 23%, rgb(125, 12, 102) 39%,rgb(118, 11, 100) 39%, rgb(118, 11, 100) 45%,rgb(110, 9, 98) 45%, rgb(110, 9, 98) 47%,rgb(103, 8, 96) 47%, rgb(103, 8, 96) 52%,rgb(95, 6, 95) 52%, rgb(95, 6, 95) 70%,rgb(88, 5, 93) 70%, rgb(88, 5, 93) 100%),linear-gradient(157.5deg, rgb(140, 15, 105) 0%, rgb(140, 15, 105) 1%,rgb(133, 14, 103) 1%, rgb(133, 14, 103) 23%,rgb(125, 12, 102) 23%, rgb(125, 12, 102) 39%,rgb(118, 11, 100) 39%, rgb(118, 11, 100) 45%,rgb(110, 9, 98) 45%, rgb(110, 9, 98) 47%,rgb(103, 8, 96) 47%, rgb(103, 8, 96) 52%,rgb(95, 6, 95) 52%, rgb(95, 6, 95) 70%,rgb(88, 5, 93) 70%, rgb(88, 5, 93) 100%),linear-gradient(90deg, rgb(184, 43, 117),rgb(202, 2, 218)); background-blend-mode:overlay,overlay,overlay,normal;
+}
